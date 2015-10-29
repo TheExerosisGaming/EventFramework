@@ -1,6 +1,5 @@
 package me.exerosis.event;
 
-import me.exerosis.component.event.Priority;
 
 public class EventListener<A, B> {
     private Class<A> _listenerType;
