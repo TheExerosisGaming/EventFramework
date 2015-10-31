@@ -1,6 +1,5 @@
 package me.exerosis.event;
 
-import me.exerosis.component.event.EventExecutor;
 
 import java.util.Set;
 import java.util.TreeSet;
