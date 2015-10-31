@@ -11,7 +11,6 @@ public interface Cancellable {
     }
 
     default void setCancelled(boolean cancelled) {
-
         instances.put(this, cancelled);
     }
 }
