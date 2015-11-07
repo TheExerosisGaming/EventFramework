@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class EventManager {
     private Set<EventListener<?, ?>> instances = new TreeSet<>((o1, o2) -> Integer.compare(o2.getPriority().ordinal(), o1.getPriority().ordinal()));
 
-    private EventManager() {
+    public EventManager() {
     }
 
     public void registerListener(EventListener<?, ?> listener) {

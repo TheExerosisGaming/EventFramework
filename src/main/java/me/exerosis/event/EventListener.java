@@ -38,10 +38,10 @@ public class EventListener<A, B> {
 
     public void register(Class<A> listenerType) {
         _listenerType = listenerType;
-        EventManager.registerListener(this);
+        GlobalEventManager.registerListener(this);
     }
 
     public void unregister() {
-        EventManager.unregisterListener(this);
+        GlobalEventManager.unregisterListener(this);
     }
 }
