@@ -19,11 +19,6 @@ public class EventListener<A, B> {
     }
 
     public void onEvent(B event) {
-        new EventListener<String, Integer>() {
-            public void onEvent(Integer event) {
-
-            }
-        }.post().register(String.class);
     }
 
     public EventListener<A, B> post() {
